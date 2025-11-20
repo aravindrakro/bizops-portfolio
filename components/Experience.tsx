@@ -14,7 +14,7 @@ const Experience: React.FC = () => {
         </div>
 
         <div className="relative border-l-2 border-slate-200 ml-4 md:ml-6 space-y-12">
-          {EXPERIENCES.map((exp, index) => (
+          {EXPERIENCES.map((exp) => (
             <div key={exp.id} className="relative pl-8 md:pl-12">
               {/* Timeline Dot */}
               <div className="absolute -left-[9px] top-1 bg-blue-600 h-5 w-5 rounded-full border-4 border-slate-50"></div>
